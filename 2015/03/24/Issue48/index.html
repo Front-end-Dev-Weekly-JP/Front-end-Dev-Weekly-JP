@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>[翻訳]Issue 48 | Front-end Dev Weekly JP</title>
+  <meta name="description" content="" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+  <meta name="generator" content="Front-end Dev Weekly JP">
+
+  
+  
+  
+
+  
+</head>
+
+
+<body class="post-template">
+
+  <header class="site-head"  style="background-image: url(//blog.ghost.org/content/images/2013/Nov/cover.png)" >
+    <div class="vertical">
+        <div class="site-head-content inner">
+             <a class="blog-logo" href="/"><img src="//blog.ghost.org/content/images/2013/Nov/bloglogo_1-1.png" alt="Blog Logo"/></a> 
+            <h1 class="blog-title">Front-end Dev Weekly JP</h1>
+            <h2 class="blog-description"></h2>
+        </div>
+    </div>
+</header>
+  
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2015-03-23T15:00:00.000Z" itemprop="datePublished">
+          2015-03-24
+      </time>
+    
+</span>
+    <h1 class="post-title">[翻訳]Issue 48</h1>
+    <section class="post-content">
+      <p>Front-end Dev Weekly Issue 48の元記事は<a href="https://frontenddevweekly.curated.co/issues/48" target="_blank" rel="external">こちら</a></p>
+<p><strong>フロントエンド開発者の世界が大変身！</strong><br>今週は「新しい情報」についてはあまり紹介しません。しかし、その代わりに、フロントエンドの世界の自然な発展について見ていくことにしましょう。今週は、いつReact.jsに切り替えるべきか、Normalize.cssがどうやって変わってきたか、もうアニメーションはUXデザイナーのためだけではないことの理由、そして、Sassの「map」が、「ハードコーディングを行うSassのファン達」だけでなく、あなたに関係のある部分について見ていきたいと思います。<br><a href="https://twitter.com/gvinter" target="_blank" rel="external">Galen Vinter</a></p>
+<hr>
+
+<h3 id="フレームワーク">フレームワーク</h3><p><hr><br><strong><a href="http://www.crashlytics.com/blog/building-user-interfaces-with-react/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">「なぜ、Reactに変えるのか」</a></strong><br>フレームワークに銀の弾丸はありません。どのフレームワークを選択するかや、いつ白黒の判断をつけるかや、最も情報に基づいた意思決定が行われたかについて理解することは、何か試して、考えている誰かに聞くことに基づきます。<br><a href="http://www.crashlytics.com/blog/building-user-interfaces-with-react/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">crashlytics.com</a></p>
+<p><br></p>
+<h3 id="開発ツール">開発ツール</h3><p><hr><br><strong><a href="http://git-ftp.github.io/git-ftp/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Git + FTP = Git-ftp</a></strong><br>FTPでしかアクセスできないクライアントや状況を作ってください。「これは安全ではないし、素人がすることだ」とあなたは思います。そういったときに、Git-FTPを思い出してください。サイトやアプリのバージョン管理を壊さないために。<br><a href="http://git-ftp.github.io/git-ftp/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">github.io</a></p>
+<hr>
+<p><strong><a href="https://github.com/sindresorhus/chalk?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">見やすいように:Chalk</a></strong><br>Chalkはターミナル内で重要な箇所をわかりやすくするのを助ける小さな開発ツールです。ログやディレクトリなどにおける検索を高速化してくれます。<br><a href="https://github.com/sindresorhus/chalk?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">github.com</a></p>
+<p><br></p>
+<h3 id="UI/UX">UI/UX</h3><hr>
+
+<p><strong><a href="https://cssanimation.rocks/principles/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Webのためのアニメーションの原理</a></strong><br>「UXデザイナーの仕事」のように感じるかもしれませんが、私はフロントエンド開発者も、この3〜5年でだんだん複雑になっていくであろうインターフェースが構築されるのに追いついていくために単純か、あるいは複雑ではないようなアニメーションの原理をマスターする必要があるということを保証します。<br><a href="https://cssanimation.rocks/principles/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">cssanimation.rocks</a></p>
+<hr>
+<p><strong><a href="https://github.com/petermelias/font-awesome-sass-mixins?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Sassのミックスインを使ったFont Awesome</a></strong><br>私はどれだけFont Awesomeのアイコンの統合に頼るようになっているかをただ理解するためだけにプロジェクトからBootstrapを取り除きました。この小さなライブラリは私を救ってくれました。<br><a href="https://github.com/petermelias/font-awesome-sass-mixins?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">github.com</a></p>
+<p><br></p>
+<h3 id="ライブラリ">ライブラリ</h3><p><hr><br><strong><a href="http://jonathantneal.github.io/sanitize.css/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Reset.css、それから Normalize.css、そして今はSanitize.css</a></strong><br>ブラウザが時とともに変わっていくので、ライブラリがCSSやブラウザ間の不整合を均一化することはこれからも続いていくでしょう。振り出しの状態からプロジェクトを開始するということが鍵となります。なぜなら、これらのリセットライブラリが振り出しの１つ前の状態だからです。<br><a href="http://jonathantneal.github.io/sanitize.css/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">github.io</a></p>
+<p><br></p>
+<h3 id="学習">学習</h3><p><hr><br><strong><a href="http://www.sitepoint.com/5-great-uses-sass-maps/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">SassのMapの5のすごい使い方</a></strong><br>変数や、ネストや、ミックスインは素晴らしいです。しかし、Sassとmapを併用した時の驚くべきパワーについて深堀りしましょう。以下がスタートする簡単な方法です。<br><a href="http://www.sitepoint.com/5-great-uses-sass-maps/?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">sitepoint.com</a></p>
+<hr>
+<p><strong><a href="http://raganwald.com/2015/03/12/symmetry.html?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">JavaScriptの関数のシンメトリー</a></strong><br>JSの「基礎を学ぶ」ものはたくさんありますが、以下は素晴らしいサンプルです。JSの結合の有用性や柔軟性について熟知している人に関しては少し愚かかもしれませんが。もしあなたが盲目的にJSのフレームワークで開発してきたなら、曖昧さを無くしてくれるでしょう。<br><a href="http://raganwald.com/2015/03/12/symmetry.html?utm_campaign=Front_End_Dev_Weekly_48&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">raganwald.com</a></p>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>Galen Vinter, (訳)Kohei Takata</h4>
+    <p></p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://front-end-dev-weekly-jp.github.io/2015/03/24/Issue48/"
+       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://front-end-dev-weekly-jp.github.io/2015/03/24/Issue48/"
+       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://front-end-dev-weekly-jp.github.io/2015/03/24/Issue48/"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <a class="newer-posts" href="/2015/03/31/Issue49/">
+        ← [翻訳]Issue 49
+    </a>
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/2015/03/17/Issue47/">
+        [翻訳]Issue 47 →
+    </a>
+    
+</nav>
+</main>
+
+
+  
+<footer class="site-footer">
+  
+  <div class="inner">
+    <section class="copyright">Copyright © <a href= "https://frontenddevweekly.curated.co/">Front-end Dev Weekly</a>, <a href="http://tako-black.github.io/">Kohei Takata</a> 2014 - 2015 All rights reserved.</section>
+    <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-61161623-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+
+
+
+</body>
+</html>
