@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>[翻訳]Issue 53 | Front-end Dev Weekly JP</title>
+  <meta name="description" content="" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+  <meta name="generator" content="Front-end Dev Weekly JP">
+
+  
+  
+  
+
+  
+</head>
+
+
+<body class="post-template">
+
+  <header class="site-head"  style="background-image: url(//blog.ghost.org/content/images/2013/Nov/cover.png)" >
+    <div class="vertical">
+        <div class="site-head-content inner">
+             <a class="blog-logo" href="/"><img src="//blog.ghost.org/content/images/2013/Nov/bloglogo_1-1.png" alt="Blog Logo"/></a> 
+            <h1 class="blog-title">Front-end Dev Weekly JP</h1>
+            <h2 class="blog-description"></h2>
+        </div>
+    </div>
+</header>
+  
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2015-04-27T15:00:00.000Z" itemprop="datePublished">
+          2015-04-28
+      </time>
+    
+</span>
+    <h1 class="post-title">[翻訳]Issue 53</h1>
+    <section class="post-content">
+      <p>Front-end Dev Weekly Issue 53の元記事は<a href="https://frontenddevweekly.curated.co/issues/53" target="_blank" rel="external">こちら</a></p>
+<h3 id="コメント">コメント</h3><p><strong>Fast apps fast、つなぎ目のない変化、プリプロセッサのパフォーマンスにおける落とし穴</strong><br>Googleのようなビッグネームが頻繁に<a href="http://foam-framework.github.io/foam/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">新しいフレームワーク</a>を出すのはなかなかないことです。特に、MVCのJSのフレームワークにおいては。しかし、このフレームワークはMVCであり、MVVMではありません。このフレームワークの意図する所を見ると、私は<a href="https://www.meteor.com/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Meteor</a>を強く思い起こします。<br>他の興味深い記事は<a href="http://www.degdigital.com/blog/returning-to-real-front-end-code?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">DEGのポストプロセッサ</a>のものです。私はSassのプリプロセッサに多くの時間を費やしましたが、なぜポストプロセッサについてはあまり語られることがないのでしょうか。私が思うに、皆はインターネットやブラウザのレンダリングの速度は一定の割合で増加し続け、私たちのパフォーマンスが低いCSSをカバーしてくれると望んでいるからでしょう。それは信頼できるのでしょうか。クリーンアップしましょう！</p>
+<p><a href="https://twitter.com/gvinter" target="_blank" rel="external">Galen Vinter</a></p>
+<hr>
+
+<h3 id="フレームワーク">フレームワーク</h3><p><hr><br><strong><a href="http://foam-framework.github.io/foam/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Googleによる、FOAMフレームワーク</a></strong><br>彼らのGitHubや説明のサイトを見ると重いですが、このMVCフレームワークは”fast apps fast”の”基本原理”のもと、Googleによってもたらされています。<br><a href="http://foam-framework.github.io/foam/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">github.io</a></p>
+<p><br></p>
+<h3 id="UI/UX">UI/UX</h3><p><strong><a href="http://www.sitepoint.com/sass-theming-withconfiguration-files/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">設定ファイルを用いたSassによるテーマ付け</a></strong><br>私が<a href="https://placester.com/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Placester</a>にいたとき、何年もサイトのテーマ付けのために働きました。事前に作られたサブテーマは戦いのたった半分だったにも関わらず（もう半分はユーザーに色やテーマの要素を使用するのを許可することでした）、Sassによるテーマ付けは確実に未来の頭痛のタネを無くすのにいい時間です。<br><a href="http://www.sitepoint.com/sass-theming-withconfiguration-files/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">sitepoint.com</a></p>
+<p><br></p>
+<h3 id="ライブラリ">ライブラリ</h3><p><strong><a href="http://wheelnavjs.softwaretailoring.net/examples.html?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">WheelNav.js - 私たちのための円や回転のライブラリ</a></strong><br>私はこのライブラリが好きです。なぜなら、今までに触ったことのないつなぎ目の無い形や相互作用の世界の扉を開いてくれたからです。<br><a href="http://wheelnavjs.softwaretailoring.net/examples.html?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">softwaretailoring.net</a></p>
+<hr>
+<p><strong><a href="https://github.com/bendc/sprint?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Sprint.jsのようなものでJQueryの代替を考える</a></strong><br>「SprintはJQueryの代替です。後継者ではありません。JQueryにはもっと特徴があり、さらにエッジなケースにも対応しますし、さらに多くのブラウザをサポートします。Sprintはパフォーマンスを犠牲にすることなくDOMをフレンドリーにする薄いレイヤーです。」<br><a href="https://github.com/bendc/sprint?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">github.com</a></p>
+<p><br></p>
+<h3 id="学習">学習</h3><p><strong><a href="http://www.degdigital.com/blog/returning-to-real-front-end-code?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">CSSのポストプロセッサやJSのトランスパイラについて知っていますか？ここから始めましょう…</a></strong><br>プリプロセッサは私が覚えている限りでは、一番流行したものです。しかし、アップストリームのプリプロセスがダウンストリームのパフォーマンスに影響を与えるのは簡単です。どのようにそれが起きるのか、どうやってパフォーマンスの落とし穴を避けることができるか学びましょう。<br><a href="http://www.degdigital.com/blog/returning-to-real-front-end-code?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">degdigital.com</a></p>
+<hr>
+<p><strong><a href="https://css-tricks.com/where-style-guides-fit-into-process/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">プロセスのどこにスタイルガイドを差し込むか</a></strong><br>明らかなようにも思えますが、プロセスのどこにスタイルガイドは差し込めるでしょうか。Chris Coyierには考えがあるようです。<br><a href="https://css-tricks.com/where-style-guides-fit-into-process/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">css-tricks.com</a></p>
+<hr>
+<p><strong><a href="http://sassbreak.com/ruby-sass-libsass-differences/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Ruby Sass, LibSass – 違いは何でしょうか？</a></strong><br>プロのフロントエンド開発者ならこれらの2つの”Sass”のライブラリの違いについて知っておくべきです。<br><a href="http://sassbreak.com/ruby-sass-libsass-differences/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">sassbreak.com</a></p>
+<p><br></p>
+<h3 id="レスポンシブ">レスポンシブ</h3><p><strong><a href="http://www.sitepoint.com/sass-responsive-typography/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">Sassとレスポンシブなタイポグラフィー</a></strong><br>次回、私は新規開発のプロジェクトでデザイナと働きます。そこでは、フォントのサイズを少ししか使わないことにチャレンジしようと思っています。この方法によって、デザイナは簡単にSassのMapや適用されているレスポンシブを理解できます。<br><a href="http://www.sitepoint.com/sass-responsive-typography/?utm_campaign=Front_End_Dev_Weekly_53&amp;utm_medium=email&amp;utm_source=Front%2BEnd%2BDev%2BWeekly" target="_blank" rel="external">sitepoint.com</a></p>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>Galen Vinter, (訳)Kohei Takata</h4>
+    <p></p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://front-end-dev-weekly-jp.github.io/2015/04/28/Issue53/"
+       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://front-end-dev-weekly-jp.github.io/2015/04/28/Issue53/"
+       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://front-end-dev-weekly-jp.github.io/2015/04/28/Issue53/"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <a class="newer-posts" href="/2099/12/30/about-FEDW/">
+        ← Front-end Dev Weeklyについて
+    </a>
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/2015/04/21/Issue52/">
+        [翻訳]Issue 52 →
+    </a>
+    
+</nav>
+</main>
+
+
+  
+<footer class="site-footer">
+  
+  <div class="inner">
+    <section class="copyright">Copyright © <a href= "https://frontenddevweekly.curated.co/">Front-end Dev Weekly</a>, <a href="http://tako-black.github.io/">Kohei Takata</a> 2014 - 2015 All rights reserved.</section>
+    <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-61161623-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+
+
+
+</body>
+</html>
