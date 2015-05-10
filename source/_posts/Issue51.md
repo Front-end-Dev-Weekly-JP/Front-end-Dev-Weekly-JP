@@ -33,12 +33,14 @@ Logは見にくく、読むのが辛いものであってはいけません。No
 
 <br>
 ### ライブラリ
+<hr>
 **[テキストエリアをマークダウンにする](https://tibastral.github.io/markdownify/?utm_campaign=Front_End_Dev_Weekly_51&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)**
 この小さなライブラリはたった70行のJavaScriptとCSSからなります。また、自分専用のものを書くこともできます。本当に１番シンプルなマークダウンのライブラリが出ました。
 [github.io](https://tibastral.github.io/markdownify/?utm_campaign=Front_End_Dev_Weekly_51&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)
 
 <br>
 ### 学習
+<hr>
 **[CSSによって、要素が選択されたりコピーされたりするのを防ぐ](https://danoc.me/blog/css-prevent-copy/?utm_campaign=Front_End_Dev_Weekly_51&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)**
 コンテンツがサイトから抜かれたくないと思いますか？ここにはコンテンツをスクレイピングしにくくする方法のチュートリアルがあります。
 [danoc.me](https://danoc.me/blog/css-prevent-copy/?utm_campaign=Front_End_Dev_Weekly_51&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)
@@ -50,6 +52,7 @@ Logは見にくく、読むのが辛いものであってはいけません。No
 
 <br>
 ### チュートリアル
+<hr>
 **[「<img>タグよりも多くの画像がwebにはある」](https://www.udacity.com/course/ud882?utm_campaign=Front_End_Dev_Weekly_51&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)**
 「なぜこのコースをとったのですか？ロードが早くなったり、レスポンシブコンテンツにすることはいい改造です。」
 [udacity.com](https://www.udacity.com/course/ud882?utm_campaign=Front_End_Dev_Weekly_51&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)

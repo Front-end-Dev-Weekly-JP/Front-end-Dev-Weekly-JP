@@ -5,6 +5,7 @@ date: 2015-04-21 00:00:00
 Front-end Dev Weekly Issue 52の元記事は[こちら](https://frontenddevweekly.curated.co/issues/52)
 
 ### コメント
+<hr>
 **1年経過しました。振り返ってみましょう！**
 私の好きなフロントエンドの開発の記事を集めた小さなプロジェクトとしてはじまったのに、すぐに完全なウィークリーニュースレターとして変わりました。
 全てのメールを手打ちしていましたが、[Curated](http://curated.co/?utm_campaign=Front_End_Dev_Weekly_52&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)という素晴らしいニュースレター作成ツールを使うことで、昨年、数百時間が浮いたと思います。（Curated本当にありがとう！）
@@ -33,18 +34,21 @@ Gulpを使っていて、Sassの形式で簡単に単純なグリッドのシス
 
 <br>
 ### ライブラリ
+<hr>
 **[Base.css - ローレベルのCSSのツールキット](http://www.basscss.com/?utm_campaign=Front_End_Dev_Weekly_52&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)**
 「軽くて早い、モジュールの副作用のないCSS」
 [basscss.com](http://www.basscss.com/?utm_campaign=Front_End_Dev_Weekly_52&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)
 
 <br>
 ### 学習
+<hr>
 **[Backboneで書いたコードを矯正する:イベント駆動のUI開発のレッスン](https://code.mixpanel.com/2015/04/08/straightening-our-backbone-a-lesson-in-event-driven-ui-development/?utm_campaign=Front_End_Dev_Weekly_52&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)**
 「これはBackboneの上位として開発されたフレームワークではありません。これからは私たちの組織がどのようにBackboneを使っているかのパターン達です。」とMixpanelのエンジニアは言いました。
 [mixpanel.com](https://code.mixpanel.com/2015/04/08/straightening-our-backbone-a-lesson-in-event-driven-ui-development/?utm_campaign=Front_End_Dev_Weekly_52&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)
 
 <br>
 ### レスポンシブ
+<hr>
 **[Responsible.js - デスクトップバージョンを見ましょう](http://davidwells.io/code/responsible/?utm_campaign=Front_End_Dev_Weekly_52&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)**
 「モバイルでアクセスしてきた人にデスクトップと見せるかモバイルのレイアウトだと見せるか」
 [davidwells.io](http://davidwells.io/code/responsible/?utm_campaign=Front_End_Dev_Weekly_52&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)
@@ -56,6 +60,7 @@ Gulpを使っていて、Sassの形式で簡単に単純なグリッドのシス
 
 <br>
 ### ニュース
+<hr>
 **[VersionPress 1.0がリリースされました](http://blog.versionpress.net/2015/04/versionpress-1-0-released/?utm_campaign=Front_End_Dev_Weekly_52&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)**
 私はこのWordPressの「プラグイン」に興味をそそられました。なぜなら、複数のWordPressのサイトを複数のクライアントに対して運営している人々にとっては、このプラグインの価値はとても大きなものになるからです。WordPressの複数サイト機能を使うよりも。
 [versionpress.net](http://blog.versionpress.net/2015/04/versionpress-1-0-released/?utm_campaign=Front_End_Dev_Weekly_52&utm_medium=email&utm_source=Front%2BEnd%2BDev%2BWeekly)
