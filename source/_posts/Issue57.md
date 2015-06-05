@@ -2,6 +2,7 @@ title: "[翻訳]Issue 57"
 date: 2015-05-26 00:00:00
 
 ---
+
 Front-end Dev Weekly Issue 57の元記事は[こちら](https://frontenddevweekly.curated.co/issues/57)
 
 ### コメント
