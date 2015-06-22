@@ -30,7 +30,7 @@ Paul Irishは実際にはjQueryをJavaScriptの中で使わずに、jQueryがセ
 ### UI/UX
 <hr>
 **[CSSでセンタリングする方法](http://howtocenterincss.com/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&utm_medium=web&utm_source=Front_End_Dev_Weekly_59)**
-Enoughは「assでは、CSSでセンタリングするのは辛い」と言いました。
+「CSSでセンタリングするのは辛くて面倒」とよく言われています。
 [howtocenterincss.com](http://howtocenterincss.com/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&utm_medium=web&utm_source=Front_End_Dev_Weekly_59)
 
 ---
