@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>[翻訳]Issue 61 | Front-end Dev Weekly JP</title>
+  <meta name="description" content="" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+  <meta name="generator" content="Front-end Dev Weekly JP">
+
+  
+  
+  
+
+  
+</head>
+
+
+<body class="post-template">
+
+  <header class="site-head"  style="background-image: url(//blog.ghost.org/content/images/2013/Nov/cover.png)" >
+    <div class="vertical">
+        <div class="site-head-content inner">
+             <a class="blog-logo" href="/"><img src="//blog.ghost.org/content/images/2013/Nov/bloglogo_1-1.png" alt="Blog Logo"/></a> 
+            <h1 class="blog-title">Front-end Dev Weekly JP</h1>
+            <h2 class="blog-description"></h2>
+        </div>
+    </div>
+</header>
+  <a href="https://github.com/Front-end-Dev-Weekly-JP/Front-end-Dev-Weekly-JP"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+  
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2015-06-29T15:00:00.000Z" itemprop="datePublished">
+          2015-06-30
+      </time>
+    
+</span>
+    <h1 class="post-title">[翻訳]Issue 61</h1>
+    <section class="post-content">
+      <p>Front-end Dev Weekly Issue 61の元記事は<a href="https://frontenddevweekly.curated.co/issues/61" target="_blank" rel="external">こちら</a></p>
+<h3 id="コメント">コメント</h3><p><hr><br><strong>Googleが静かにGitHubの競合をリリースしました</strong><br>今週は、Sassのようなライブラリと、パフォーマンスとUXの面で私たちを助けてくれる賢いJSのライブラリと、Sublime Textを無償化させてしまうかもしれないAtomという新しいテキストエディタについて紹介します。個人的に、私はSublime Textユーザーなのですが、Atomが主張している通り素晴らしいものであれば、Atomに近々移るでしょう。乞うご期待…<br>また、私は読者のみなさんのことをさらによく知ろうと試みていますが、もしみなさんの中にフリーランサーやコンサルタントの方がいらっしゃいましたら、面白いと思うであろう<a href="https://blog.projectpulse.io/complete-client-projects-on-time/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">どうやって期限内にプロジェクトを完遂させるか</a>という記事を最近書きました。もしこの記事に書いてあることを試した方がいらっしゃいましたら、コメント欄にそのように書いていただくか、<a href="https://twitter.com/gvinter?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">私にtweet</a>してください。</p>
+<p><a href="https://twitter.com/gvinter" target="_blank" rel="external">Galen Vinter</a></p>
+<hr>
+
+<h3 id="パフォーマンス">パフォーマンス</h3><p><hr><br><strong><a href="https://github.com/purifycss/purifycss?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">Purify.css - 使われていないCSSを削除する</a></strong><br>Purifyは「アプリケーションが使用しているCSSのセレクタを発見し、使われていないCSSを除いたファイルを作成」します。<br><a href="https://github.com/purifycss/purifycss?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">github.com</a></p>
+<hr>
+<p><strong><a href="http://www.sitepoint.com/testing-sass-library/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">Sassのライブラリをテストすること</a></strong><br>「私が最近<a href="http://www.sitepoint.com/testing-sass-function-5-minutes/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">5分でSassの関数をテストすること</a>という記事で紹介した、<a href="https://github.com/HugoGiraudel/SassyTester?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">SassyTester</a>を使ってSassでテストが書かれる単純なものを私たちは求めていました。」<br><a href="http://www.sitepoint.com/testing-sass-library/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">sitepoint.com</a></p>
+<p><br></p>
+<h3 id="開発ツール">開発ツール</h3><p><hr><br><strong><a href="https://cloud.google.com/tools/cloud-repositories/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">Googleが静かにGitHubの競合をオープンしました</a></strong><br>Google Cloud Platformでホストされる、全ての機能を持ったプライベートなGitのリポジトリです。<br><a href="https://cloud.google.com/tools/cloud-repositories/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">google.com</a></p>
+<p><br></p>
+<h3 id="意見">意見</h3><p><hr><br><strong><a href="https://medium.com/space-camp/three-simple-techniques-for-writing-more-semantic-and-maintainable-javascript-apps-206b4fb89f15" target="_blank" rel="external">さらにセマンティックで整備されたJavaScriptのアプリケーションを書く単純な技術</a></strong><br>私は#2（JSのコードでIDを参照しない）に完全には賛成できなかったので、「学習」ではなく「意見」としてこの記事にマークをつけました。私は個人的にはスタイルにとってのクラスやJSにとってのIDを使い、特別な場合ではdata-*属性を使用します。なぜなら、そのJSがとても読みやすくなるからです。しかし、これはただの私の意見であることを再度お伝えします。そして、この記事の著者はさらに大きなアプリケーションにおいてはたぶん正しいのでしょう。<br><a href="https://medium.com/space-camp/three-simple-techniques-for-writing-more-semantic-and-maintainable-javascript-apps-206b4fb89f15" target="_blank" rel="external">medium.com</a></p>
+<p><br></p>
+<h3 id="UI/UX">UI/UX</h3><p><hr><br><strong><a href="https://scotch.io/tutorials/aesthetic-sass-2-colors?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">Sassのエステ第2弾:色とパレット</a></strong><br>「あなたは自分の色のパレットを選択して持っているでしょう。ビルトインのSassの色の関数はそれらを操作するために使用することができます。」<br><a href="https://scotch.io/tutorials/aesthetic-sass-2-colors?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">scotch.io</a></p>
+<hr>
+<p><strong><a href="http://gradifycss.com/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">Gradify - 画像からCSSでグラデーションを行う</a></strong><br>私が<a href="https://placester.com/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">Placester</a>で働いていた時、コンテンツにリーチしてフロントエンドを動的に構築していました。UXの大きな挑戦のうちの1つは、デザインや、使いたいコンテンツや画像は何でも使えるような多彩なUIを見つけることでした。このライブラリは、いつでもデザインの一部として画像を使うように計画されているかのように、どの画像を使うかの判断を助け、それに動的にグラデーションを行います。<br><a href="http://gradifycss.com/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">gradifycss.com</a></p>
+<p><br></p>
+<h3 id="学習">学習</h3><p><hr><br><strong><a href="https://nodesource.com/blog/understanding-the-nodejs-event-loop?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">Node.jsのイベントループを理解すること</a></strong><br>この記事はNode.jsのイベントループの概要について教えてくれます。技術的な詳細については不足しています。Trevorが言及しているように、イベントループの「ユニコーンとと虹」について理解することで、「魔法をエンジョイしすぎるほどエンジョイでき」ます。<br><a href="https://nodesource.com/blog/understanding-the-nodejs-event-loop?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">nodesource.com</a></p>
+<p><br></p>
+<h3 id="ニュース">ニュース</h3><p><hr><br><strong><a href="http://blog.atom.io/2015/06/25/atom-1-0.html?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">ハックできるテキストエディタであるAtomが1.0になりました</a></strong><br>近年においてとてもよくウォッチされているテキストエディタの1つであるAtomがバージョン1になり、今やプロダクションでも使える準備ができたと開発者の世界を波立たせるようになりました。もしあなたが好むなら、アナウンスをスキップして、<a href="https://atom.io/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">こちらからダウンロード</a>できます。<br><a href="http://blog.atom.io/2015/06/25/atom-1-0.html?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_61" target="_blank" rel="external">atom.io</a></p>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>Galen Vinter, (訳)Kohei Takata</h4>
+    <p></p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://front-end-dev-weekly-jp.github.io/2015/06/30/Issue61/"
+       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://front-end-dev-weekly-jp.github.io/2015/06/30/Issue61/"
+       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://front-end-dev-weekly-jp.github.io/2015/06/30/Issue61/"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <a class="newer-posts" href="/2099/12/30/about-FEDW/">
+        ← Front-end Dev Weeklyについて
+    </a>
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/2015/06/24/Issue60/">
+        [翻訳]Issue 60 →
+    </a>
+    
+</nav>
+</main>
+
+
+  
+<footer class="site-footer">
+  
+  <div class="inner">
+    <section class="copyright">Copyright © <a href= "https://frontenddevweekly.curated.co/">Front-end Dev Weekly</a>, <a href="http://tako-black.github.io/">Kohei Takata</a> 2014 - 2015 All rights reserved.</section>
+    <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-61161623-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+
+
+
+</body>
+</html>
