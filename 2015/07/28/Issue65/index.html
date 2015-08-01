@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>[翻訳]Issue 65 | Front-end Dev Weekly JP</title>
+  <meta name="description" content="" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+  <meta name="generator" content="Front-end Dev Weekly JP">
+
+  
+  
+  
+
+  
+</head>
+
+
+<body class="post-template">
+
+  <header class="site-head"  style="background-image: url(//blog.ghost.org/content/images/2013/Nov/cover.png)" >
+    <div class="vertical">
+        <div class="site-head-content inner">
+             <a class="blog-logo" href="/"><img src="//blog.ghost.org/content/images/2013/Nov/bloglogo_1-1.png" alt="Blog Logo"/></a> 
+            <h1 class="blog-title">Front-end Dev Weekly JP</h1>
+            <h2 class="blog-description"></h2>
+        </div>
+    </div>
+</header>
+  <a href="https://github.com/Front-end-Dev-Weekly-JP/Front-end-Dev-Weekly-JP"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+  
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2015-07-27T15:00:00.000Z" itemprop="datePublished">
+          2015-07-28
+      </time>
+    
+</span>
+    <h1 class="post-title">[翻訳]Issue 65</h1>
+    <section class="post-content">
+      <p>Front-end Dev Weekly Issue 65の元記事は<a href="https://frontenddevweekly.curated.co/issues/65" target="_blank" rel="external">こちら</a></p>
+<h3 id="コメント">コメント</h3><p><hr><br><strong>1,000,0000ウェブサイト、GoogleがダウンロードリンクのUXの問題を認めたこと、.gitがあなたを無防備にする</strong><br>今週はたくさんの記事がありました。Googleがアプリのダウンロードリンクが正常に動いていなかったことを認めたことの全体像について、100万サイトが使用しているライブラリを調査していること、The Vergeがサードパーティダウンロードとトラッキングサイトを台無しにし始めていること、.gitファイルを使用して、多くのサイトが無防備になっていること。学び、反映することはたくさんあります。みなさん、よい週を！</p>
+<p><a href="https://twitter.com/gvinter" target="_blank" rel="external">Galen Vinter</a></p>
+<hr>
+
+<h3 id="パフォーマンス">パフォーマンス</h3><hr>
+
+<p><strong><a href="http://blog.lmorchard.com/2015/07/22/the-verge-web-sucks/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">The Vergeのウェブは良くない</a></strong><br>「要約:The Vergeが広告やトラッキングの目的で20社を私たちに見せていたことを知っていましたか？私は知りませんでした。それは、あなたのウェブエクスペリエンスを少しですが台無しにします。何か違った行動を起こすべきでしょう。」<br><a href="http://blog.lmorchard.com/2015/07/22/the-verge-web-sucks/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">lmorchard.com</a></p>
+<p><br></p>
+<h3 id="開発ツール">開発ツール</h3><p><hr><br><strong><a href="https://medium.com/@housecor/browserify-vs-webpack-b3d7ca08a0a9" target="_blank" rel="external">Browserify対Webpack</a></strong><br>要約:「もし1から小さくて単純な目的のツールを明確に設定することを好むならば、BrowserifyとGulp/Gruntを使用することが合っているでしょう。」しかし、Webpackは「魔法」であることを気にしないのであれば、ビルドプロセスにかかる時間を減らすことができます。<br><a href="https://medium.com/@housecor/browserify-vs-webpack-b3d7ca08a0a9" target="_blank" rel="external">medium.com</a></p>
+<hr>
+<p><strong><a href="http://reactkungfu.com/2015/07/the-hitchhikers-guide-to-modern-javascript-tooling/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">モダンなJavaScriptのツールについてのヒッチハイカーのガイド</a></strong><br>この記事は記事の中のあるセクションのタイトルに言い換えることができます。「モダンなJSやReactのコードベースで共通で使用されている人気のあるツールやライブラリ」です。しかし、Reactの開発者のスタックについては見直す価値があるでしょう。<br><a href="http://reactkungfu.com/2015/07/the-hitchhikers-guide-to-modern-javascript-tooling/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">reactkungfu.com</a></p>
+<hr>
+<p><strong><a href="https://github.com/golbin/git-commander?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">コンソールでGitを操作する</a></strong><br>私はgitのdiffを理解することや何をコミットしたかを視覚的に知るために<a href="http://gitx.frim.nl/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">GitX</a>を使用しています。後者の理由でコマンドラインを使用したいと思うならば、このライブラリをチェックしてみてください。<br><a href="https://github.com/golbin/git-commander?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">github.com</a></p>
+<p><br></p>
+<h3 id="UI/UX">UI/UX</h3><p><hr><br><strong><a href="http://techcrunch.com/2015/07/23/i-dont-want-your-app/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">アプリをダウンロードするかどうか「聞く」モバイルサイトに困っていますか？あなたは1人ではありません。</a></strong><br>Googleで働いている人が爆弾を落としました。「Google+は『アプリをダウンロードする』によって、69%のユーザーがアプリをダウンロードしたり、サイトに残ったりせず、間接的にサイトを去っていることを発見しました。」<br><a href="http://techcrunch.com/2015/07/23/i-dont-want-your-app/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">techcrunch.com</a></p>
+<p><br></p>
+<h3 id="ライブラリ">ライブラリ</h3><p><hr><br><strong><a href="http://7shifts.com/blog/better-time-drop-downs-jquery-timeautocomplete/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">jQueryの時間のオートコンプリート:時間の範囲のよりよいドロップダウン</a></strong><br>「イベント駆動の、Googleカレンダーのタイムピッカーに似たタイムピッカーです。スマートで、セクシーで、直感的であることを意味します。」<br><a href="http://7shifts.com/blog/better-time-drop-downs-jquery-timeautocomplete/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">7shifts.com</a></p>
+<hr>
+<p><strong><a href="http://bevacqua.github.io/horsey/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">Horsey.js:先進的でカスタマイズ可能なオートコンプリートのコンポーネント</a></strong><br>マッチングが曖昧なように思えます。レンダリングのロジックをカスタマイズすることが可能なので、小さなオートコンプリートの実行を助けてくれるでしょう。<br><a href="http://bevacqua.github.io/horsey/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">github.io</a></p>
+<p><br></p>
+<h3 id="学習">学習</h3><p><hr><br><strong><a href="http://www.jamiembrown.com/blog/one-in-every-600-websites-has-git-exposed/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">.gitを残しておくのはやめましょう！</a></strong><br>「ウェブの開発者にとって、.gitフォルダを世界中に対して無防備にしておくことは初心者にありがちなミスです。データベースのパスワードやソルトやハッシュやサードパーティのAPIキーやユーザーネームとパスワードのセットを含んでいることが多いソースコードのリポジトリの全てを、誰でもダウンロードできるようになります。」<br><a href="http://www.jamiembrown.com/blog/one-in-every-600-websites-has-git-exposed/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">jamiembrown.com</a></p>
+<hr>
+<p><strong><a href="http://jacquesmattheij.com/one-million-websites?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">100万のウェブサイト</a></strong><br>「単純な質問（外部でホストされているリソースを使用しているサイトはどのくらいあるのでしょうか）から始まりましたが、ウェブサイトの危険のある振る舞いに対応することについての質問に答えるためのプロジェクトに広がりました。」私は<a href="https://www.ghostery.com/en/try-us/download-add-on/?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">Ghostery</a>というブラウザのアドオンについては今まで知りませんでしたが、誰があなたの行動をトラッキングしているか表示してくれることを嬉しく思います。<br><a href="http://jacquesmattheij.com/one-million-websites?utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">jacquesmattheij.com</a></p>
+<hr>
+<p><strong><a href="http://www.lukew.com/ff/entry.asp?1950&amp;utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">ドロップダウンはUIの最後の手段であるべきです</a></strong><br>「モバイルのフォームにおいて、入力をより単純にしたり、よりよく動くコントロールを適切にするためにドロップダウンメニューを使用することが多くなりすぎていると思います。デザインを考える上で、ドロップダウンの代替となるものや、それが必要である理由を以下に示しています。」<br><a href="http://www.lukew.com/ff/entry.asp?1950&amp;utm_campaign=Front%2BEnd%2BDev%2BWeekly&amp;utm_medium=web&amp;utm_source=Front_End_Dev_Weekly_65" target="_blank" rel="external">lukew.com</a></p>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>Galen Vinter, (訳)Kohei Takata</h4>
+    <p></p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://front-end-dev-weekly-jp.github.io/2015/07/28/Issue65/"
+       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://front-end-dev-weekly-jp.github.io/2015/07/28/Issue65/"
+       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://front-end-dev-weekly-jp.github.io/2015/07/28/Issue65/"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <a class="newer-posts" href="/2099/12/30/about-FEDW/">
+        ← Front-end Dev Weeklyについて
+    </a>
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/2015/07/21/Issue64/">
+        [翻訳]Issue 64 →
+    </a>
+    
+</nav>
+</main>
+
+
+  
+<footer class="site-footer">
+  
+  <div class="inner">
+    <section class="copyright">Copyright © <a href= "https://frontenddevweekly.curated.co/">Front-end Dev Weekly</a>, <a href="http://tako-black.github.io/">Kohei Takata</a> 2014 - 2015 All rights reserved.</section>
+    <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-61161623-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+
+
+
+</body>
+</html>
